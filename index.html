@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>James's Site</title>
+
+<style>
+
+body{
+    margin:0;
+    background:#0d1117;
+    color:#e6edf3;
+    font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Arial;
+    line-height:1.6;
+}
+
+.container{
+    max-width:850px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+header{
+    margin-bottom:50px;
+}
+
+h1{
+    font-size:38px;
+    margin-bottom:5px;
+}
+
+.subtitle{
+    color:#8b949e;
+}
+
+.links a{
+    margin-right:15px;
+    color:#58a6ff;
+    text-decoration:none;
+}
+
+.links a:hover{
+    text-decoration:underline;
+}
+
+.post{
+    border-top:1px solid #30363d;
+    padding:30px 0;
+}
+
+.post:first-of-type{
+    border-top:none;
+}
+
+.post-title{
+    font-size:22px;
+    margin-bottom:6px;
+}
+
+.date{
+    color:#8b949e;
+    font-size:14px;
+    margin-bottom:12px;
+}
+
+.post video{
+    width:100%;
+    border-radius:8px;
+    margin-top:10px;
+}
+
+.post a{
+    color:#58a6ff;
+    text-decoration:none;
+}
+
+.post a:hover{
+    text-decoration:underline;
+}
+
+footer{
+    border-top:1px solid #30363d;
+    margin-top:40px;
+    padding-top:20px;
+    color:#8b949e;
+    font-size:14px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+<h1>James Furtado's Project Blog!</h1>
+<div class="subtitle">Currently exploring Embedded Systems, Rust, and DevOps</div>
+
+<div class="links">
+<a href="https://github.com/jamesdfurtado">GitHub</a>
+<a href="https://www.linkedin.com/in/james-furtado/">LinkedIn</a>
+</div>
+</header>
+
+
+<div class="post">
+
+<div class="post-title">Gyroscope Liquid Simulator</div>
+<div class="date">March 2026</div>
+
+<p>
+A physics-style liquid simulation running on an STM32 microcontroller.  
+The onboard gyroscope controls the direction of gravity, causing particles
+to flow across the LCD screen based on board orientation.
+</p>
+
+<video src="media/liquid.gif">
+
+<p>
+<a href="#">GitHub Repo</a>
+</p>
+
+</div>
+
+
+<div class="post">
+
+<div class="post-title">STM32 Snake Game</div>
+<div class="date">March 2026</div>
+
+<p>
+Classic Snake implemented in C for an STM32 driving a 320x240 LCD display.
+Used FreeRTOS to ENSURE user input responds in time...
+</p>
+
+<video src="media/snake.png">
+
+<p>
+<a href="#">GitHub Repo</a>
+</p>
+
+</div>
+
+
+<div class="post">
+
+<div class="post-title">ADC Mini Oscilloscope</div>
+<div class="date">February 2026</div>
+
+<p>
+A simple oscilloscope-style waveform viewer using the STM32 ADC.
+Analog signals are sampled and rendered in real-time on the display.
+</p>
+
+<video src="media/oscilloscope.png">
+
+<p>
+<a href="#">GitHub Repo</a>
+</p>
+
+</div>
+
+
+<footer>
+You aren't supposed to find me! Go away!
+</footer>
+
+</div>
+
+</body>
+</html>
